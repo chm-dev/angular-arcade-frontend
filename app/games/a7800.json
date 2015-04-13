@@ -1,0 +1,642 @@
+{
+    "menu": {
+        "header": {
+            "listname": "Atari 7800",
+            "lastlistupdate": "06/08/2013",
+            "listversion": "1.1 Final",
+            "exporterversion": "HyperList XML Exporter Version 1.3 Copywrite (c) 2009-2011 William Strong"
+        },
+        "game": [
+            {
+                "-name": "32 in 1 (USA)",
+                "-index": "true",
+                "-image": "3",
+                "description": "32 in 1 (USA)",
+                "crc": "eaef28ea",
+                "manufacturer": "Atari",
+                "year": "1988",
+                "genre": "Compilation",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Ace of Aces (USA)",
+                "-index": "true",
+                "-image": "a",
+                "description": "Ace of Aces (USA)",
+                "crc": "fa616e77",
+                "manufacturer": "Artech",
+                "year": "1988",
+                "genre": "Flying",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Alien Brigade (USA)",
+                "description": "Alien Brigade (USA)",
+                "crc": "3cef22ca",
+                "manufacturer": "Atari",
+                "year": "1990",
+                "genre": "Shooter",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Asteroids (USA)",
+                "description": "Asteroids (USA)",
+                "crc": "c9f1e305",
+                "manufacturer": "Atari",
+                "year": "1987",
+                "genre": "Shoot-'Em-Up",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Ballblazer (USA)",
+                "-index": "true",
+                "-image": "b",
+                "description": "Ballblazer (USA)",
+                "crc": "5b635cb6",
+                "manufacturer": "Lucasfilm Games",
+                "year": "1987",
+                "genre": "Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Barnyard Blaster (USA)",
+                "description": "Barnyard Blaster (USA)",
+                "crc": "36a9f2a5",
+                "manufacturer": "Atari",
+                "year": "1988",
+                "genre": "Gun",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Basketbrawl (USA)",
+                "description": "Basketbrawl (USA)",
+                "crc": "fd3aec38",
+                "manufacturer": "Atari",
+                "year": "1990",
+                "genre": "Basketball/Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Centipede (USA)",
+                "-index": "true",
+                "-image": "c",
+                "description": "Centipede (USA)",
+                "crc": "7ca3ec6b",
+                "manufacturer": "Atari",
+                "year": "1987",
+                "genre": "Shoot-'Em-Up",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Choplifter! (USA)",
+                "description": "Choplifter! (USA)",
+                "crc": "0b0d05d4",
+                "manufacturer": "Broderbund Software",
+                "year": "1988",
+                "genre": "Shoot-'Em-Up",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Commando (USA)",
+                "description": "Commando (USA)",
+                "crc": "e9bd1c75",
+                "manufacturer": "Capcom",
+                "year": "1989",
+                "genre": "Shooter",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Crack'ed (USA)",
+                "description": "Crack'ed (USA)",
+                "crc": "61dcc763",
+                "manufacturer": "Atari",
+                "year": "1988",
+                "genre": "Shooter",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Crossbow (USA)",
+                "description": "Crossbow (USA)",
+                "crc": "a2678e2d",
+                "manufacturer": "Exidy",
+                "year": "1987",
+                "genre": "Shooter",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Dark Chambers (USA)",
+                "-index": "true",
+                "-image": "d",
+                "description": "Dark Chambers (USA)",
+                "crc": "b5a87d19",
+                "manufacturer": "Atari",
+                "year": "1988",
+                "genre": "Maze",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Desert Falcon (USA)",
+                "description": "Desert Falcon (USA)",
+                "crc": "5ff04461",
+                "manufacturer": "Atari",
+                "year": "1987",
+                "genre": "Shoot-'Em-Up",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Dig Dug (USA)",
+                "description": "Dig Dug (USA)",
+                "crc": "a6da053d",
+                "manufacturer": "Namco",
+                "year": "1987",
+                "genre": "Maze",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Donkey Kong (USA)",
+                "description": "Donkey Kong (USA)",
+                "crc": "24afb84f",
+                "manufacturer": "Nintendo",
+                "year": "1988",
+                "genre": "Platform",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Donkey Kong Junior (USA)",
+                "description": "Donkey Kong Junior (USA)",
+                "crc": "812457fb",
+                "manufacturer": "Nintendo",
+                "year": "1988",
+                "genre": "Platform",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Double Dragon (USA)",
+                "description": "Double Dragon (USA)",
+                "crc": "16e2fc12",
+                "manufacturer": "Technos",
+                "year": "1989",
+                "genre": "Beat-'Em-Up",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "F-18 Hornet (USA)",
+                "-index": "true",
+                "-image": "f",
+                "description": "F-18 Hornet (USA)",
+                "crc": "fa3e8cbb",
+                "manufacturer": "Absolute Entertainment",
+                "year": "1988",
+                "genre": "Flying",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Fatal Run (USA)",
+                "description": "Fatal Run (USA)",
+                "crc": "718232bb",
+                "manufacturer": "Sculptured Software",
+                "year": "1990",
+                "genre": "Driving",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Fight Night (USA)",
+                "description": "Fight Night (USA)",
+                "crc": "28e38bd7",
+                "manufacturer": "Sydney Development",
+                "year": "1988",
+                "genre": "Boxing/Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Food Fight (USA)",
+                "description": "Food Fight (USA)",
+                "crc": "db5b7d3f",
+                "manufacturer": "Atari",
+                "year": "1987",
+                "genre": "Fighter",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Galaga (USA)",
+                "-index": "true",
+                "-image": "g",
+                "description": "Galaga (USA)",
+                "crc": "0a174f9b",
+                "manufacturer": "Namco",
+                "year": "1987",
+                "genre": "Shoot-'Em-Up",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Hat Trick (USA)",
+                "-index": "true",
+                "-image": "h",
+                "description": "Hat Trick (USA)",
+                "crc": "e293793e",
+                "manufacturer": "Bally Sente",
+                "year": "1987",
+                "genre": "Hockey/Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Ikari Warriors (USA)",
+                "-index": "true",
+                "-image": "i",
+                "description": "Ikari Warriors (USA)",
+                "crc": "aa0cfb30",
+                "manufacturer": "SNK",
+                "year": "1989",
+                "genre": "Shooter",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Impossible Mission (USA)",
+                "description": "Impossible Mission (USA)",
+                "crc": "fa0a683e",
+                "manufacturer": "Epyx",
+                "year": "1987",
+                "genre": "Platform",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Jinks (USA)",
+                "-index": "true",
+                "-image": "j",
+                "description": "Jinks (USA)",
+                "crc": "9571c998",
+                "manufacturer": "Diamond Software",
+                "year": "1989",
+                "genre": "Breakout",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Joust (USA)",
+                "description": "Joust (USA)",
+                "crc": "1646ec7c",
+                "manufacturer": "Williams Electronics",
+                "year": "1987",
+                "genre": "Platform",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Karateka (USA)",
+                "-index": "true",
+                "-image": "k",
+                "description": "Karateka (USA)",
+                "crc": "be689aea",
+                "manufacturer": "Broderbund Software",
+                "year": "1987",
+                "genre": "Fighter",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Kung-Fu Master (USA)",
+                "description": "Kung-Fu Master (USA)",
+                "crc": "37816887",
+                "manufacturer": "Irem",
+                "year": "1989",
+                "genre": "Fighter",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Mario Bros. (USA)",
+                "-index": "true",
+                "-image": "m",
+                "description": "Mario Bros. (USA)",
+                "crc": "fcffc04a",
+                "manufacturer": "Nintendo",
+                "year": "1988",
+                "genre": "Platform",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Mat Mania Challenge (USA)",
+                "description": "Mat Mania Challenge (USA)",
+                "crc": "a902f3e6",
+                "manufacturer": "American Technos",
+                "year": "1990",
+                "genre": "Sports/Wrestling",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Mean 18 Ultimate Golf (USA)",
+                "description": "Mean 18 Ultimate Golf (USA)",
+                "crc": "517d1986",
+                "manufacturer": "Accolade",
+                "year": "1989",
+                "genre": "Golf/Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Meltdown (USA)",
+                "description": "Meltdown (USA)",
+                "crc": "14502302",
+                "manufacturer": "Atari",
+                "year": "1990",
+                "genre": "Shooter",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Midnight Mutants (USA)",
+                "description": "Midnight Mutants (USA)",
+                "crc": "e7157222",
+                "manufacturer": "Radioactive Software",
+                "year": "1990",
+                "genre": "Adventure",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Motor Psycho (USA)",
+                "description": "Motor Psycho (USA)",
+                "crc": "fc414689",
+                "manufacturer": "BlueSky Software",
+                "year": "1990",
+                "genre": "Driving",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Ms. Pac-Man (USA)",
+                "description": "Ms. Pac-Man (USA)",
+                "crc": "2b11d9f2",
+                "manufacturer": "General Computer Corporation, Midway",
+                "year": "1987",
+                "genre": "Maze",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Ninja Golf (USA)",
+                "-index": "true",
+                "-image": "n",
+                "description": "Ninja Golf (USA)",
+                "crc": "9e5d3625",
+                "manufacturer": "BlueSky Software",
+                "year": "1990",
+                "genre": "Golf/Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "One-on-One Basketball (USA)",
+                "-index": "true",
+                "-image": "o",
+                "description": "One-on-One Basketball (USA)",
+                "crc": "859c8456",
+                "manufacturer": "Atari",
+                "year": "1987",
+                "genre": "Basketball/Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Pete Rose Baseball (USA)",
+                "-index": "true",
+                "-image": "p",
+                "description": "Pete Rose Baseball (USA)",
+                "crc": "ecece40b",
+                "manufacturer": "Absolute Entertainment",
+                "year": "1989",
+                "genre": "Baseball/Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Planet Smashers (USA)",
+                "description": "Planet Smashers (USA)",
+                "crc": "46342cd3",
+                "manufacturer": "Atari",
+                "year": "1990",
+                "genre": "Shoot-'Em-Up",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Pole Position II (USA)",
+                "description": "Pole Position II (USA)",
+                "crc": "3d57623a",
+                "manufacturer": "Namco",
+                "year": "1987",
+                "genre": "Driving",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Rampage (USA)",
+                "-index": "true",
+                "-image": "r",
+                "description": "Rampage (USA)",
+                "crc": "859d9352",
+                "manufacturer": "Bally Midway",
+                "year": "1989",
+                "genre": "Platform",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "RealSports Baseball (USA)",
+                "description": "RealSports Baseball (USA)",
+                "crc": "f33bd4fd",
+                "manufacturer": "Atari",
+                "year": "1988",
+                "genre": "Baseball/Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Robotron - 2084 (USA)",
+                "description": "Robotron - 2084 (USA)",
+                "crc": "aa06b121",
+                "manufacturer": "Williams Electronic Games",
+                "year": "1986",
+                "genre": "Shoot-'Em-Up",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Scrapyard Dog (USA)",
+                "-index": "true",
+                "-image": "s",
+                "description": "Scrapyard Dog (USA)",
+                "crc": "db61ae81",
+                "manufacturer": "BlueSky Software",
+                "year": "1990",
+                "genre": "Platform",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Sentinel (Europe)",
+                "description": "Sentinel (Europe)",
+                "crc": "4c779065",
+                "manufacturer": "Atari",
+                "year": "1991",
+                "genre": "Gun",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Summer Games (USA)",
+                "description": "Summer Games (USA)",
+                "crc": "8e4cf69c",
+                "manufacturer": "Epyx",
+                "year": "1987",
+                "genre": "Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Super Huey UH-1X (USA)",
+                "description": "Super Huey UH-1X (USA)",
+                "crc": "033a6058",
+                "manufacturer": "Cosmi",
+                "year": "1988",
+                "genre": "Flying",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Super Skateboardin' (USA)",
+                "description": "Super Skateboardin\\' (USA)",
+                "crc": "faa12091",
+                "manufacturer": "Absolute Entertainment",
+                "year": "1988",
+                "genre": "Skateboarding/Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Tank Command (USA)",
+                "-index": "true",
+                "-image": "t",
+                "description": "Tank Command (USA)",
+                "crc": "9ffc9515",
+                "manufacturer": "Froggo Games",
+                "year": "1988",
+                "genre": "Shooter",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Title Match Pro Wrestling (USA)",
+                "description": "Title Match Pro Wrestling (USA)",
+                "crc": "a5742a96",
+                "manufacturer": "Absolute Entertainment",
+                "year": "1989",
+                "genre": "Sports/Wrestling",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Tomcat - The F-14 Fighter Simulator (USA)",
+                "description": "Tomcat - The F-14 Fighter Simulator (USA)",
+                "crc": "ab48f361",
+                "manufacturer": "Absolute Entertainment",
+                "year": "1989",
+                "genre": "Flying",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Touchdown Football (USA)",
+                "description": "Touchdown Football (USA)",
+                "crc": "4162e98f",
+                "manufacturer": "Imagic",
+                "year": "1988",
+                "genre": "Football/Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Tower Toppler (USA)",
+                "description": "Tower Toppler (USA)",
+                "crc": "f701bd43",
+                "manufacturer": "Hewson",
+                "year": "1988",
+                "genre": "Action",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Water Ski (USA)",
+                "-index": "true",
+                "-image": "w",
+                "description": "Water Ski (USA)",
+                "crc": "09a27634",
+                "manufacturer": "Froggo Games",
+                "year": "1988",
+                "genre": "Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Winter Games (USA)",
+                "description": "Winter Games (USA)",
+                "crc": "12454060",
+                "manufacturer": "Action Graphics",
+                "year": "1987",
+                "genre": "Sports",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Xenophobe (USA)",
+                "-index": "true",
+                "-image": "x",
+                "description": "Xenophobe (USA)",
+                "crc": "96ee8584",
+                "manufacturer": "Bally Midway",
+                "year": "1989",
+                "genre": "Action",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      },
+            {
+                "-name": "Xevious (USA)",
+                "description": "Xevious (USA)",
+                "crc": "3f8507f3",
+                "manufacturer": "Namco",
+                "year": "1988",
+                "genre": "Shoot-'Em-Up",
+                "rating": "HSRS - GA (General Audience)",
+                "enabled": "Yes"
+      }
+    ]
+    }
+}

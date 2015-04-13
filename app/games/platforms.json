@@ -1,0 +1,32 @@
+[
+    {
+        "sort": 0,
+        "id": "PC",
+        "name": "PC GAMES",
+        "imageUrl": "img/games/PC.jpg",
+        "snippet": "Gierki na PC"
+    },
+
+    {
+        "sort": 1,
+        "id": "NES",
+        "name": "NES GAMES",
+        "imageUrl": "img/games/NES.jpg",
+        "snippet": "Gierki na PEGASUSA"
+    },
+    {
+        "sort": 2,
+        "id": "a7800",
+        "name": "Atari 7800",
+        "imageUrl": "img/games/a7800.jpg",
+        "snippet": "Gierki na atari 7800"
+    },
+    {
+        "sort": 3,
+        "id": "VBoy",
+        "name": "Virtual Boy",
+        "imageUrl": "img/games/VBoy.jpg",
+        "snippet": "Gierki na atari 7800"
+    }
+
+]

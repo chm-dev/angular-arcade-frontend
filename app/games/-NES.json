@@ -1,0 +1,205 @@
+{
+            "platform": "NES Games",
+
+            "games":
+[
+  {
+    "game": "voluptate id ea",
+    "path": "c:\\gry\\aliquip\\consectetur\\",
+    "exec": "occaecat.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=17"
+  },
+  {
+    "game": "incididunt cillum aliqua",
+    "path": "c:\\gry\\laboris\\magna\\",
+    "exec": "irure.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=1"
+  },
+  {
+    "game": "ea sunt quis",
+    "path": "c:\\gry\\aute\\nulla\\",
+    "exec": "non.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=2"
+  },
+  {
+    "game": "magna esse ut",
+    "path": "c:\\gry\\consequat\\nisi\\",
+    "exec": "ut.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=3"
+  },
+  {
+    "game": "duis dolore eiusmod",
+    "path": "c:\\gry\\voluptate\\velit\\",
+    "exec": "consequat.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=4"
+  },
+  {
+    "game": "et deserunt occaecat",
+    "path": "c:\\gry\\aute\\nostrud\\",
+    "exec": "elit.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=5"
+  },
+  {
+    "game": "enim proident tempor",
+    "path": "c:\\gry\\enim\\consequat\\",
+    "exec": "consequat.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=6"
+  },
+  {
+    "game": "mollit duis cillum",
+    "path": "c:\\gry\\et\\Lorem\\",
+    "exec": "non.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=7"
+  },
+  {
+    "game": "tempor laborum officia",
+    "path": "c:\\gry\\velit\\reprehenderit\\",
+    "exec": "incididunt.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=8"
+  },
+  {
+    "game": "incididunt aliqua sunt",
+    "path": "c:\\gry\\veniam\\deserunt\\",
+    "exec": "sint.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=9"
+  },
+  {
+    "game": "velit ad magna",
+    "path": "c:\\gry\\consectetur\\voluptate\\",
+    "exec": "aute.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=10"
+  },
+  {
+    "game": "cillum officia aliqua",
+    "path": "c:\\gry\\ad\\dolor\\",
+    "exec": "ea.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=11"
+  },
+  {
+    "game": "eiusmod ad laboris",
+    "path": "c:\\gry\\deserunt\\ex\\",
+    "exec": "minim.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=12"
+  },
+  {
+    "game": "velit ut mollit",
+    "path": "c:\\gry\\proident\\cupidatat\\",
+    "exec": "et.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=13"
+  },
+  {
+    "game": "officia ullamco aliquip",
+    "path": "c:\\gry\\velit\\voluptate\\",
+    "exec": "magna.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=14"
+  },
+  {
+    "game": "esse incididunt culpa",
+    "path": "c:\\gry\\ex\\deserunt\\",
+    "exec": "dolor.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=15"
+  },
+  {
+    "game": "eu quis culpa",
+    "path": "c:\\gry\\Lorem\\aute\\",
+    "exec": "veniam.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=16"
+  },
+  {
+    "game": "dolore et excepteur",
+    "path": "c:\\gry\\aliqua\\duis\\",
+    "exec": "aliquip.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=17"
+  },
+  {
+    "game": "esse id deserunt",
+    "path": "c:\\gry\\cupidatat\\culpa\\",
+    "exec": "laboris.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=18"
+  },
+  {
+    "game": "enim fugiat consequat",
+    "path": "c:\\gry\\consectetur\\proident\\",
+    "exec": "exercitation.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=19"
+  },
+  {
+    "game": "fugiat amet officia",
+    "path": "c:\\gry\\est\\exercitation\\",
+    "exec": "culpa.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=20"
+  },
+  {
+    "game": "magna esse ipsum",
+    "path": "c:\\gry\\eu\\cillum\\",
+    "exec": "ut.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=21"
+  },
+  {
+    "game": "cupidatat cillum aute",
+    "path": "c:\\gry\\sint\\eu\\",
+    "exec": "et.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=22"
+  },
+  {
+    "game": "culpa cupidatat esse",
+    "path": "c:\\gry\\laborum\\tempor\\",
+    "exec": "proident.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=23"
+  },
+  {
+    "game": "cupidatat consectetur Lorem",
+    "path": "c:\\gry\\labore\\dolor\\",
+    "exec": "proident.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=24"
+  },
+  {
+    "game": "minim consequat consequat",
+    "path": "c:\\gry\\exercitation\\laborum\\",
+    "exec": "velit.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=25"
+  },
+  {
+    "game": "culpa laboris in",
+    "path": "c:\\gry\\irure\\eiusmod\\",
+    "exec": "excepteur.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=26"
+  },
+  {
+    "game": "est velit elit",
+    "path": "c:\\gry\\fugiat\\labore\\",
+    "exec": "sit.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=27"
+  },
+  {
+    "game": "irure laborum nisi",
+    "path": "c:\\gry\\ad\\id\\",
+    "exec": "anim.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=28"
+  },
+  {
+    "game": "enim mollit Lorem",
+    "path": "c:\\gry\\occaecat\\nostrud\\",
+    "exec": "qui.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=29"
+  },
+  {
+    "game": "velit eiusmod pariatur",
+    "path": "c:\\gry\\tempor\\exercitation\\",
+    "exec": "ea.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=30"
+  },
+  {
+    "game": "velit culpa magna",
+    "path": "c:\\gry\\exercitation\\est\\",
+    "exec": "eu.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=31"
+  },
+  {
+    "game": "officia occaecat sit",
+    "path": "c:\\gry\\pariatur\\anim\\",
+    "exec": "dolor.exe",
+    "cover": "http://localhost/show_static/randomImg/randim.php?folder=covers&type=32"
+  }
+]
+}

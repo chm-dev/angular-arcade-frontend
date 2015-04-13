@@ -1,0 +1,1 @@
+var frontendAnimations = angular.module('frontendAnimations', ['ngAnimate']);

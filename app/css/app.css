@@ -1,0 +1,156 @@
+/* app css stylesheet */
+
+body {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.games {
+    list-style: none;
+    position: relative;
+}
+
+.thumb {
+    float: left;
+    margin: -0.5em 1em 1.5em 0;
+    padding-bottom: 1em;
+    height: 100px;
+    width: 100px;
+}
+
+.games li {
+    clear: both;
+    padding-top: 5px;
+}
+
+.games li.active,
+.platforms li.active {
+    background: #eee;
+    border-color: blue;
+}
+/** Detail View **/
+
+img.phone {
+    float: left;
+    border: 1px solid black;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding: 2em;
+    height: 400px;
+    width: 400px;
+}
+
+ul.phone-thumbs {
+    margin: 0;
+    list-style: none;
+}
+
+ul.phone-thumbs li {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 1em;
+    background-color: white;
+}
+
+ul.phone-thumbs img {
+    height: 100px;
+    width: 100px;
+    padding: 1em;
+}
+
+ul.phone-thumbs img:hover {
+    cursor: pointer;
+}
+
+ul.specs {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.specs > li {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+ul.specs > li > span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+ul.specs dt {
+    font-weight: bold;
+}
+
+h1 {
+    border-bottom: 1px solid gray;
+}
+
+.phone-images {
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+img.phone {
+    float: left;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding: 2em;
+    height: 400px;
+    width: 400px;
+    display: none;
+}
+
+img.phone:first-child {
+    display: block;
+}
+
+.games-list {
+    height: 500px;
+    overflow-y: hidden;
+}
+
+.header {
+    background: #444;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: none;
+    /*narazie ukrywamy*/
+}
+
+.header input,
+.header select option,
+.header select {
+    color: #000;
+}
+
+hr {
+    margin: 5px auto;
+}
+
+img#boxSrc {
+    height: 500px;
+}
+/* Widok platform */
+
+ul.platforms {
+    width: 100%;
+}
+
+ul.platforms li {
+    height: 100px;
+}
+
+.view-frame {
+    width: 100%;
+}

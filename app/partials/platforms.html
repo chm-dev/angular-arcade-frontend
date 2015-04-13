@@ -1,0 +1,28 @@
+<div class="container-fluid" back-img="{{bgmain}}">
+    <div class="row main-row">
+        <div class="col-md-2 sidebar clearfix">
+            <!--Sidebar content-->
+            <div class="logo"></div>
+            <div class="navigation"></div>
+        </div>
+        <div class="col-md-10" ng-controller="NavigationCtrl">
+            <!--Body content-->
+
+
+
+            <ul class="platforms clearfix">
+                <li on-finish-render="init()" ng-repeat="platform in platforms | filter:query | orderBy:orderProp" class="phone-listing">
+
+                    <a class="thumb" ng-click="setBgimg(platform.id)">
+
+                        <img ng-src="{{platform.imageUrl}}">
+                    </a>
+                    <a href="#/platform/{{platform.id}}" class="big-font">{{platform.name}}</a>
+                    <p>{{platform.snippet}}</p>
+
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
