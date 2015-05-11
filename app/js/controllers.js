@@ -142,7 +142,7 @@ frontendControllers.controller('NavigationCtrl', ['$scope', 'platform',
 
             $($scope.ul.children().get($scope.indx)).addClass('active')
 
-            $scope.ul.parent().scrollTo($($scope.ul.children().get($scope.indx)), 40, {
+            $($scope.ul.parent()).scrollTo($($scope.ul.children().get($scope.indx)), 40, {
                 offset: -($(window).height() / 2)
             })
             console.log('scrolling to ' + $scope.ul.children().get($scope.indx).id + '\nindx = ' + $scope.indx + '\n' + $scope.ul.children().get($scope.indx).dataset.oindex);

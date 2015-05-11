@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en" ng-app="frontendApp">
 
 <head>
@@ -10,7 +9,13 @@
 
 
     <link rel="stylesheet" href="css/transitions.css">
+
     <script src="bower_components/jquery/dist/jquery.js"></script>
+
+    <script>
+        window.$ = window.jQuery = require('./bower_components/jquery/dist/jquery.js');
+        window.$ = window.jQuery = require('./bower_components/jquery/dist/jquery.scrollTo.js');
+    </script>
     <script src="bower_components/jquery.scrollTo/jquery.scrollTo.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
@@ -22,6 +27,24 @@
     <script src="js/controllers.js"></script>
     <script src="js/directives.js"></script>
     <script src="js/animations.js"></script>
+    <script type="text/javascript">
+        require('ipc').on('video', function (message) {
+            videoN(message);
+        });
+    </script>
+
+    <script>
+        function videoN(what) {
+            if (what == 'pause') {
+                //       document.getElementById('v1').pause();
+                $('.view-container').css('opacity', 0.1);
+            }
+            if (what == 'play') {
+                //       document.getElementById('v1').play();
+                $('.view-container').css('opacity', '');
+            }
+        }
+    </script>
 
 
     <!--
@@ -36,6 +59,7 @@
     <div class="view-container">
         <div ng-view class="view-frame "></div>
     </div>
+
 </body>
 
 </html>
