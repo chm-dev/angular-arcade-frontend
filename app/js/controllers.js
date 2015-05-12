@@ -126,11 +126,27 @@ frontendControllers.controller('NavigationCtrl', ['$scope', 'platform',
             /* ENTER - wlaczamy gre */
             if (keyCode == 13) {
                 if ($scope.ulClass == "games") {
-                    alert('Uruchom grę ' + $scope.platform.menu.game[$('ul.' + $scope.ulClass).children().get($scope.indx).dataset.oindex].description);
+                    //alert('Uruchom grę ' + $scope.platform.menu.game[$('ul.' + $scope.ulClass).children().get($scope.indx).dataset.oindex].description);
+                    var exec = require("child_process").exec;
+                    var child = exec('C:\\Develop\\retroArch\\retroarch.exe -L C:\\Develop\\retroArch\\cores\\bsnes_accuracy_libretro.dll \"C:\\Develop\\retroArch\\roms\\snes\\Super Mario World (USA).zip\" ',
+                        function (error, stdout, stderr) {
+                            console.log('stdout: ' + stdout);
+                            console.log('stderr: ' + stderr);
+                            if (error !== null) {
+                                console.log('exec error: ' + error);
+                            }
+                        });
+                    child.on('exit', function (code) {
+                        console.log('Child process exited ' +
+                            'with exit code ' + code);
+
+                        $($scope.ul.children().get($scope.indx)).addClass('active')
+                    });
                     return
                 } else if ($scope.ulClass == "platforms") {
                     location.href = "#/platform/" + $scope.platforms[$scope.indx].id;
                 }
+
             }
             /* Backspace - cofamy do głównego menu ale tylko w menu games*/
             if (keyCode == 8 && $scope.ulClass == "games") {

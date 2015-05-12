@@ -12,10 +12,7 @@
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
 
-    <script>
-        window.$ = window.jQuery = require('./bower_components/jquery/dist/jquery.js');
-        window.$ = window.jQuery = require('./bower_components/jquery/dist/jquery.scrollTo.js');
-    </script>
+
     <script src="bower_components/jquery.scrollTo/jquery.scrollTo.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
@@ -27,23 +24,22 @@
     <script src="js/controllers.js"></script>
     <script src="js/directives.js"></script>
     <script src="js/animations.js"></script>
-    <script type="text/javascript">
-        require('ipc').on('video', function (message) {
-            videoN(message);
-        });
-    </script>
 
     <script>
-        function videoN(what) {
-            if (what == 'pause') {
-                //       document.getElementById('v1').pause();
-                $('.view-container').css('opacity', 0.1);
-            }
-            if (what == 'play') {
-                //       document.getElementById('v1').play();
-                $('.view-container').css('opacity', '');
-            }
-        }
+        // Load native UI library
+        var gui = require('nw.gui'); //or global.window.nwDispatcher.requireNwGui() (see https://github.com/rogerwang/node-webkit/issues/707)
+
+        // Get the current window
+        var win = gui.Window.get();
+
+        // Listen to the minimize event
+        win.on('blur', function () {
+            $('.view-container').css('opacity', 0.1);
+        });
+
+        win.on('focus', function () {
+            $('.view-container').css('opacity', '');
+        });
     </script>
 
 
