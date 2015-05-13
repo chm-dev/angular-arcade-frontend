@@ -1,0 +1,8 @@
+    {
+        "SNES": [
+            {
+                "emulator": "C:/Develop/retroArch/retroArch.exe -L C:/Develop/retroArch/cores/bsnes_balanced_libretro.dll ",
+                "roms": "C:/Develop/retroArch/roms/snes/"
+            }
+      ]
+    }

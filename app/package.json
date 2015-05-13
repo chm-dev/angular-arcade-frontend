@@ -1,4 +1,8 @@
 {
-  "name": "angular-arcade-frontend",
-  "main": "index.html"
+    "name": "angular-arcade-frontend",
+    "main": "index.html",
+    "window": {
+        //      "fullscreen": true,
+        //        "toolbar": false
+    }
 }

@@ -16,13 +16,21 @@
     },
     {
         "sort": 2,
+        "id": "SNES",
+        "name": "SNES GAMES",
+        "imageUrl": "img/games/SNES.jpg",
+        "snippet": "Gierki na Snesa"
+    },
+
+    {
+        "sort": 3,
         "id": "a7800",
         "name": "Atari 7800",
         "imageUrl": "img/games/a7800.jpg",
         "snippet": "Gierki na atari 7800"
     },
     {
-        "sort": 3,
+        "sort": 4,
         "id": "VBoy",
         "name": "Virtual Boy",
         "imageUrl": "img/games/VBoy.jpg",

@@ -25,6 +25,9 @@ frontendControllers.controller('PlatformsCtrl', ['$scope', 'platform',
             //   $scope.updateArt();
         }
 
+
+
+
 }
 ]);
 
@@ -43,13 +46,16 @@ frontendControllers.controller('GamesListCtrl', ['$scope', '$routeParams', 'plat
                 //Just add the index to your item
                 game.oindex = index;
             });
-
+        });
+        $scope.paths = platform.get({
+            platform: 'paths'
         });
         $scope.orderProp = 'description';
         $scope.boxSrc
         $scope.indx = 0;
         $scope.ulClass = 'games';
         $scope.ul = $('ul.' + $scope.ulClass);
+        $scope.navDisabled
 
 
         $scope.init = function () {
@@ -58,8 +64,38 @@ frontendControllers.controller('GamesListCtrl', ['$scope', '$routeParams', 'plat
             $scope.$broadcast('move', 'init');
         }
 
+        $scope.loading = function (action) {
 
-           }]);
+
+
+
+            if (action == "start") {
+                console.log('start');
+                if ($('#loading')) {
+                    $('#loading').css('display', "block").animate({
+                        'opacity': 1
+                    }, 500, "linear");
+                    win.on('blur', function () {
+                        $('#loading .spinner').css('visibility', 'hidden')
+                    });
+                }
+            } else if (action == "exit") {
+                console.log('exit');
+                $('#loading').animate({
+                    "opacity": 0
+                }, 1200, "linear", function () {
+                    $(this).css('display', "none");
+                    $('#loading .spinner').css('visibility', 'visible');
+                    win.removeAllListeners('blur');
+
+
+                })
+            }
+
+        }
+
+
+}]);
 
 
 frontendControllers.controller("keyController", ['$scope', '$window', function ($scope, $window) {
@@ -91,88 +127,105 @@ frontendControllers.controller("keyController", ['$scope', '$window', function (
 
 
 frontendControllers.controller('NavigationCtrl', ['$scope', 'platform',
-    function ($scope, platform) {
+    function ($scope, platform, paths) {
         $scope.$on('move', function (event, keyCode) {
-            console.log('move ' + keyCode);
-            $($scope.ul.children().get($scope.indx)).removeClass('active')
+            //  console.log('move ' + keyCode);
+            if (!$scope.navDisabled) {
 
-            /* strzałka w dół - 1 w dół */
-            if (keyCode == 40 && $scope.indx + 1 < $scope.ul.children().length) {
-                $scope.indx++;
-            }
-            /* strzałka w górę - 1 w górę */
-            if (keyCode == 38 && $scope.indx != 0) {
-                $scope.indx--;
-            }
-            /* strzałka w lewo - 10 w górę */
-            if (keyCode == 37 && $scope.indx != 0) {
-                if ($scope.indx - 10 < 0) {
-                    $scope.indx = 0;
-                } else {
+                $($scope.ul.children().get($scope.indx)).removeClass('active')
 
-                    $scope.indx = $scope.indx - 10;
+                /* strzałka w dół - 1 w dół */
+                if (keyCode == 40 && $scope.indx + 1 < $scope.ul.children().length) {
+                    $scope.indx++;
                 }
-            }
-
-            /* strzałka w prawo - 10 w dół */
-            if (keyCode == 39 && $scope.indx + 1 < $scope.ul.children().length) {
-                if ($scope.indx + 10 > $scope.ul.children().length - 1) {
-                    $scope.indx = $scope.ul.children().length - 1;
-                } else {
-
-                    $scope.indx = $scope.indx + 10;
+                /* strzałka w górę - 1 w górę */
+                if (keyCode == 38 && $scope.indx != 0) {
+                    $scope.indx--;
                 }
-            }
-            /* ENTER - wlaczamy gre */
-            if (keyCode == 13) {
-                if ($scope.ulClass == "games") {
-                    //alert('Uruchom grę ' + $scope.platform.menu.game[$('ul.' + $scope.ulClass).children().get($scope.indx).dataset.oindex].description);
-                    var exec = require("child_process").exec;
-                    var child = exec('C:\\Develop\\retroArch\\retroarch.exe -L C:\\Develop\\retroArch\\cores\\bsnes_accuracy_libretro.dll \"C:\\Develop\\retroArch\\roms\\snes\\Super Mario World (USA).zip\" ',
-                        function (error, stdout, stderr) {
-                            console.log('stdout: ' + stdout);
-                            console.log('stderr: ' + stderr);
-                            if (error !== null) {
-                                console.log('exec error: ' + error);
-                            }
+                /* strzałka w lewo - 10 w górę */
+                if (keyCode == 37 && $scope.indx != 0) {
+                    if ($scope.indx - 10 < 0) {
+                        $scope.indx = 0;
+                    } else {
+
+                        $scope.indx = $scope.indx - 10;
+                    }
+                }
+
+                /* strzałka w prawo - 10 w dół */
+                if (keyCode == 39 && $scope.indx + 1 < $scope.ul.children().length) {
+                    if ($scope.indx + 10 > $scope.ul.children().length - 1) {
+                        $scope.indx = $scope.ul.children().length - 1;
+                    } else {
+
+                        $scope.indx = $scope.indx + 10;
+                    }
+                }
+                /* ENTER - wlaczamy gre */
+                if (keyCode == 13) {
+                    if ($scope.ulClass == "games") {
+                        $scope.loading('start');
+                        //alert('Uruchom grę ' + $scope.platform.menu.game[$('ul.' + $scope.ulClass).children().get($scope.indx).dataset.oindex].description);
+                        var exec = require("child_process").exec;
+
+                        var emulator = $scope.paths[$scope.platform.menu.header.id][0].emulator;
+                        var roms = $scope.paths[$scope.platform.menu.header.id][0].roms;
+                        var gamefile = $scope.platform.menu.game[$('ul.' + $scope.ulClass).children().get($scope.indx).dataset.oindex].name;
+
+                        var runFile = emulator + "\"" + roms + gamefile + "\"";
+
+                        console.log(runFile);
+
+
+                        $scope.navDisabled = true;
+                        var child = exec(runFile,
+                            function (error, stdout, stderr) {
+                                console.log('stdout: ' + stdout);
+                                console.log('stderr: ' + stderr);
+                                if (error !== null) {
+                                    console.log('exec error: ' + error);
+                                }
+                            });
+                        child.on('exit', function (code) {
+                            console.log('Child process exited ' +
+                                'with exit code ' + code);
+
+                            $($scope.ul.children().get($scope.indx)).addClass('active')
+                            $scope.navDisabled = false;
+                            $scope.loading('exit');
                         });
-                    child.on('exit', function (code) {
-                        console.log('Child process exited ' +
-                            'with exit code ' + code);
+                        return
+                    } else if ($scope.ulClass == "platforms") {
+                        location.href = "#/platform/" + $scope.platforms[$scope.indx].id;
+                    }
 
-                        $($scope.ul.children().get($scope.indx)).addClass('active')
-                    });
-                    return
-                } else if ($scope.ulClass == "platforms") {
-                    location.href = "#/platform/" + $scope.platforms[$scope.indx].id;
+                }
+                /* Backspace - cofamy do głównego menu ale tylko w menu games*/
+                if (keyCode == 8 && $scope.ulClass == "games") {
+
+                    location.href = '#/platforms';
+
+
                 }
 
-            }
-            /* Backspace - cofamy do głównego menu ale tylko w menu games*/
-            if (keyCode == 8 && $scope.ulClass == "games") {
+                $($scope.ul.children().get($scope.indx)).addClass('active')
 
-                location.href = '#/platforms';
+                $($scope.ul.parent()).scrollTo($($scope.ul.children().get($scope.indx)), 40, {
+                    offset: -($(window).height() / 2)
+                })
+                console.log('scrolling to ' + $scope.ul.children().get($scope.indx).id + '\nindx = ' + $scope.indx + '\n' + $scope.ul.children().get($scope.indx).dataset.oindex);
 
+                /* update art */
+                if ($scope.ulClass == "games") {
 
-            }
+                    $scope.boxSrc =
+                        'img/games/' + $scope.platform.menu.header.id +
+                        '/Box/' + $scope.platform.menu.game[$('ul.' + $scope.ulClass).children().get($scope.indx).dataset.oindex].description + '.png';
+                    keyCode == 'init' ? '' : $scope.$apply();
 
-            $($scope.ul.children().get($scope.indx)).addClass('active')
-
-            $($scope.ul.parent()).scrollTo($($scope.ul.children().get($scope.indx)), 40, {
-                offset: -($(window).height() / 2)
-            })
-            console.log('scrolling to ' + $scope.ul.children().get($scope.indx).id + '\nindx = ' + $scope.indx + '\n' + $scope.ul.children().get($scope.indx).dataset.oindex);
-
-            /* update art */
-            if ($scope.ulClass == "games") {
-
-                $scope.boxSrc =
-                    'img/games/' + $scope.platform.menu.header.id +
-                    '/Box/' + $scope.platform.menu.game[$('ul.' + $scope.ulClass).children().get($scope.indx).dataset.oindex].description + '.png';
-                keyCode == 'init' ? '' : $scope.$apply();
-
+                }
             }
         })
 
 
-}]);
+                }]);
