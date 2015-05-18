@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'nodist' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'nodist', null ]
+6 verbose cache add name=undefined spec="nodist" args=["nodist",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'nodist',
+7 verbose parsed url   path: 'nodist',
+7 verbose parsed url   href: 'nodist' }
+8 silly lockFile a638f029-nodist nodist
+9 verbose lock nodist C:\Users\chm-imac-win7\AppData\Roaming\npm-cache\a638f029-nodist.lock
+10 silly lockFile a638f029-nodist nodist
+11 silly lockFile a638f029-nodist nodist
+12 verbose addNamed [ 'nodist', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile f30b5bde-nodist nodist@
+15 verbose lock nodist@ C:\Users\chm-imac-win7\AppData\Roaming\npm-cache\f30b5bde-nodist.lock
+16 silly addNameRange { name: 'nodist', range: '*', hasData: false }
+17 verbose request where is /nodist
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 8d5c84445aa238ad
+20 verbose url raw /nodist
+21 verbose url resolving [ 'https://registry.npmjs.org/', './nodist' ]
+22 verbose url resolved https://registry.npmjs.org/nodist
+23 verbose request where is https://registry.npmjs.org/nodist
+24 info trying registry request attempt 1 at 19:07:24
+25 verbose etag "EA71JYA75WQS2K0F9UYX7OG64"
+26 http GET https://registry.npmjs.org/nodist
+27 http 404 https://registry.npmjs.org/nodist
+28 silly registry.get cb [ 404,
+28 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"EA71JYA75WQS2K0F9UYX7OG64"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '605',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Sun, 17 May 2015 17:07:24 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-ams4133-AMS',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1431882443.918954,VS0,VE391',
+28 silly registry.get     vary: 'Accept' } ]
+29 silly lockFile f30b5bde-nodist nodist@
+30 silly lockFile f30b5bde-nodist nodist@
+31 error 404 Not Found
+31 error 404
+31 error 404 'nodist' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.1.7601
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "nodist"
+34 error cwd C:\Develop\angular-arcade-frontend\app\js
+35 error node -v v0.10.31
+36 error npm -v 1.4.23
+37 error code E404
+38 verbose exit [ 1, true ]

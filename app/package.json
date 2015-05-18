@@ -2,7 +2,10 @@
     "name": "angular-arcade-frontend",
     "main": "index.html",
     "window": {
-        //      "fullscreen": true,
-        //        "toolbar": false
-    }
+        "fullscreen": true,
+        // "toolbar": false,
+        "width": 1050,
+        "height": 600
+    },
+    "chromium-args": "--disable-extensions --disable-plugins --disable-internal-flash --disable-popup-blocking --enable-gamepad --enable-html5-camera --allow-file-access-from-files"
 }

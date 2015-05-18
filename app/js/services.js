@@ -17,3 +17,12 @@ frontendServices.factory('platform', ['$resource',
             }
         });
   }]);
+
+frontendServices.factory('buildRoms', [function () {
+
+
+    return function () {
+        var build = require('../scripts/build-roms.js');
+
+    }
+}]);

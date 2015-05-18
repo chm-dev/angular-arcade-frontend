@@ -11,7 +11,7 @@
 
 
             <ul class="platforms clearfix">
-                <li on-finish-render="init()" ng-repeat="platform in platforms | filter:query | orderBy:orderProp" class="phone-listing">
+                <li id="scan" on-finish-render="init()" ng-repeat="platform in platforms | filter:query | orderBy:orderProp" class="phone-listing">
 
                     <a class="thumb" ng-click="setBgimg(platform.id)">
 

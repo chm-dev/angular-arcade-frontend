@@ -1,8 +1,11 @@
-    {
-        "SNES": [
-            {
-                "emulator": "C:/Develop/retroArch/retroArch.exe -L C:/Develop/retroArch/cores/bsnes_balanced_libretro.dll ",
-                "roms": "C:/Develop/retroArch/roms/snes/"
-            }
-      ]
+{
+    "roms": "C:%5CDevelop%5CretroArch%5Croms%5C",
+    "emulators": {
+        "SNES": "C:/Develop/retroArch/retroArch.exe -L C:/Develop/retroArch/cores/bsnes_balanced_libretro.dll ",
+        "A7800": "C:/Develop/retroArch/retroArch.exe -L C:/Develop/retroArch/cores/prosystem_libretro.dll ",
+        "NES": "C:/Develop/retroArch/retroArch.exe -L C:/Develop/retroArch/cores/nestopia_libretro.dll ",
+        "MAME": "C:/Develop/retroArch/retroArch.exe -L C:/Develop/retroArch/cores/mame_libretro.dll "
     }
+
+
+}

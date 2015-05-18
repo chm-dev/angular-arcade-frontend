@@ -1,0 +1,46 @@
+[
+
+
+    {
+        "sort": 1,
+        "id": "NES",
+        "name": "NES GAMES",
+        "imageUrl": "img/games/NES.jpg",
+        "snippet": "Gierki na PEGASUSA",
+        "fileExtensions": "zip,nes"
+    },
+    {
+        "sort": 2,
+        "id": "SNES",
+        "name": "SNES GAMES",
+        "imageUrl": "img/games/SNES.jpg",
+        "snippet": "Gierki na Snesa",
+        "fileExtensions": "zip,smc,sfc"
+    },
+
+    {
+        "sort": 3,
+        "id": "A7800",
+        "name": "Atari 7800",
+        "imageUrl": "img/games/a7800.jpg",
+        "snippet": "Gierki na atari 7800",
+        "fileExtensions": "a78"
+    },
+    {
+        "sort": 4,
+        "id": "SMD",
+        "name": "Sega Mega Drive",
+        "imageUrl": "img/games/SegaMega.jpg",
+        "snippet": "Gierki na SMD",
+        "fileExtensions": "zip"
+    },
+    {
+        "sort": 5,
+        "id": "MAME",
+        "name": "Mame - Arcade Emulatro",
+        "imageUrl": "img/games/mame.jpg",
+        "snippet": "Gierki na AUTOMATY",
+        "fileExtensions": "zip"
+    }
+
+]

@@ -1,19 +1,21 @@
 {
-    "version": "0.0.0",
-    "private": true,
-    "name": "angular-arcade-frontend",
-    "description": "Arcade Frontend written in AngularJs",
-    "repository": "https://github.com/chmielciu/angular-arcade-frontend",
-    "license": "MIT",
-    "devDependencies": {
-        "bower":  "^1.3.1",
-        "nw":     "^0.12.1"
-    },
-    "main": "main.js",
-    "scripts": {
-
-        "start": "nw ./app/"
-    }
-
-
+  "version": "0.0.0",
+  "private": true,
+  "name": "angular-arcade-frontend",
+  "description": "Arcade Frontend written in AngularJs",
+  "repository": "https://github.com/chmielciu/angular-arcade-frontend",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.3.1",
+    "nw": "^0.12.1"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "nw ./app/"
+  },
+  "dependencies": {
+    "fs": "0.0.2",
+    "jquery": "^2.1.4",
+    "request": "^2.55.0"
+  }
 }

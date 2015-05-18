@@ -22,6 +22,10 @@ frontendApp.config(['$routeProvider',
             templateUrl: 'partials/games-list.html',
             controller: 'GamesListCtrl'
         }).
+        when('/settings', {
+            templateUrl: 'partials/settings2.html',
+            controller: 'SettingsCtrl'
+        }).
         otherwise({
             redirectTo: '/platforms'
         });

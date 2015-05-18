@@ -83,7 +83,8 @@ body {
 }
 
 ul.platforms,
-ul.games {
+ul.games,
+ul.settings {
   list-style: none;
   width: 100%;
   display: block;
@@ -91,9 +92,10 @@ ul.games {
   padding: 0;
 }
 ul.platforms li,
-ul.games li {
+ul.games li,
+ul.settings li {
   position: relative;
-  background-position: left bottom;
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
@@ -106,16 +108,19 @@ ul.games li {
   background: #fff;
 }
 ul.platforms li a,
-ul.games li a {
+ul.games li a,
+ul.settings li a {
   color: #00c6ff;
 }
 ul.platforms li .caption,
-ul.games li .caption {
+ul.games li .caption,
+ul.settings li .caption {
   z-index: 10;
   position: relative;
 }
 ul.platforms li.active,
-ul.games li.active {
+ul.games li.active,
+ul.settings li.active {
   -webkit-box-shadow: 0px 3px 8px 0px #323232;
   -moz-box-shadow: 0px 3px 8px 0px #323232;
   box-shadow: 0px 3px 8px 0px #323232;
@@ -128,11 +133,13 @@ ul.games li.active {
   border-right: none;
 }
 ul.platforms li.active .dark-bg,
-ul.games li.active .dark-bg {
+ul.games li.active .dark-bg,
+ul.settings li.active .dark-bg {
   background-color: rgba(0, 0, 0, 0.2);
 }
 ul.platforms li .dark-bg,
-ul.games li .dark-bg {
+ul.games li .dark-bg,
+ul.settings li .dark-bg {
   transition: all .5s;
   position: absolute;
   width: 100%;
@@ -144,12 +151,15 @@ ul.games li .dark-bg {
 ul.platforms li .thumb,
 ul.platforms li .thumb img,
 ul.games li .thumb,
-ul.games li .thumb img {
+ul.games li .thumb img,
+ul.settings li .thumb,
+ul.settings li .thumb img {
   height: 60px;
   margin: auto;
 }
 ul.platforms li .thumb,
-ul.games li .thumb {
+ul.games li .thumb,
+ul.settings li .thumb {
   float: left;
   width: 150px;
   text-align: right;

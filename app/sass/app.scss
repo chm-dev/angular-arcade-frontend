@@ -13,7 +13,6 @@ body {
 }
 
 #loading {
-
     opacity: 0;
     display: none;
     width: 100%;
@@ -85,7 +84,8 @@ body {
 }
 
 ul.platforms,
-ul.games {
+ul.games,
+ul.settings {
     list-style: none;
     width: 100%;
     display: block;
@@ -93,7 +93,7 @@ ul.games {
     padding: 0;
     li {
         position: relative;
-        background-position: left bottom;
+        background-position: 50% 50%;
         background-size: cover;
         background-repeat: no-repeat;
         padding: 20px;

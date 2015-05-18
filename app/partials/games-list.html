@@ -24,13 +24,14 @@
                     <div class="games-list">
                         <ul class="games">
 
-                            <li ng-repeat="game in platform.menu.game" on-finish-render="init()" class="phone-listing clearfix" id="g{{game.oindex}}" data-oindex="{{game.oindex}}" style="background-image: url(img/games/{{platform.menu.header.id}}/Snap/{{game.description | rmbrckts}}.png); background-size: cover; background-position: 50% 50%;">
+                            <li ng-repeat="game in platform.games" on-finish-render="init()" class="phone-listing clearfix" id="g{{game.oindex}}" data-oindex="{{game.oindex}}" style="background-image: url(img/games/{{platform.menu.header.id}}/Snap/{{game.filenameNoExt | rmbrckts}}.png);">
                                 <div class="caption dark-bg"></div>
-                                <div class="caption mid-font">{{game.description}}</div>
+                                <div class="caption mid-font">{{game.name}}</div>
                                 <div class="caption bottom-caption">{{game.genre}} - {{game.year}} - {{game.manufacturer}}</div>
 
                             </li>
                         </ul>
+
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -39,5 +40,7 @@
                     <br> {{boxSrc}}
                 </div>
             </div>
+
+
         </div>
     </div>
